@@ -9,6 +9,7 @@
 .container{   
     max-width: 1440px;
     margin: 0 auto;
+    margin: 0px 120px;
 }
 
 header{
@@ -22,7 +23,7 @@ header{
 }
 
 .navbar{
-    padding: 32px 120px;
+    padding: 32px 0px;
 }
 
 nav .logo{
@@ -34,7 +35,7 @@ nav .logo img{
 nav .nav-menu ul{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
 }
 
 .nav-menu ul li{
@@ -82,11 +83,9 @@ nav .auth-menu .sign-up{
 
 
                 /* hero section */
+                /* hero section */
 .container .hero-container{
-    margin-left: 144px;
-    margin-right: 144px;
-    margin-top: 96px;
-    margin-bottom: 76px;
+    margin-top: 120px;
 }
 
 .hero-content{
@@ -135,12 +134,16 @@ nav .auth-menu .sign-up{
 }
 
 .hero-container .image-content{
-    max-width: 391px; }
+    max-width: 390px; }
+
+.hero-container .image-content img{
+    width: 100%; }
 
 .hero-container .move-btn{
     display: flex;
     justify-content: center;
     gap: 8px;
+    margin-top: 96px;
     padding-bottom: 16px;
 }
 
@@ -150,12 +153,17 @@ nav .auth-menu .sign-up{
     height: 10px;
 }
 
+
+
+
+         /* client section START */
+         /* client section START */
 .client-container{
-    margin: 40px 144px 40px 144px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 40px 0;
 }
 
 .client-container .title h2{
@@ -187,13 +195,15 @@ nav .auth-menu .sign-up{
 
 
          /* community section START */
+         /* community section START */
+         /* community section START */
 .community-container{
     width: 100%;
-    padding: 0px 144px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .community-container .heading-text{
@@ -214,18 +224,22 @@ nav .auth-menu .sign-up{
     font-style: normal;
     font-weight: 400;
     line-height: 24px; 
-    margin-top: 8px;}
+    margin-top: 8px;
+    margin-bottom: 16px;}
 
 .community-container .main-box{
     display: flex;
     justify-content: space-between;
+    gap: 58px;
     align-items: center;
 }
 
 .community-container .main-box .text-box{
-    width: 299px;
+    width: 300px;
     text-align: center;
     padding: 24px 32px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
 }
 
 .community-container .main-box .text-box .image{
@@ -247,7 +261,8 @@ nav .auth-menu .sign-up{
 
 .community-container .main-box 
 .text-box .text h3{
-    text-align: center;
+    width: 80%;
+    margin: 0 auto ;
     color: #4D4D4D;
     font-size: 28px;
     font-style: normal;
@@ -263,4 +278,40 @@ nav .auth-menu .sign-up{
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+}
+
+
+
+         /* service section START */
+         /* service section START */
+         /* service section START */
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.service-container .image-content{
+    width: 444px;
+}
+
+.service-container .text-content{
+    width: 100%;
+}
+
+.service-container .text-content h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+.service-container .text-content p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
 }
