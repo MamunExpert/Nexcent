@@ -325,9 +325,11 @@ nav .auth-menu .sign-up {
 
 
 
+
 /* achievement section START */
 /* achievement section START */
 /* achievement section START */
+
 #achievement {
     background: #F5F7FA;
     margin: 0;
@@ -336,19 +338,17 @@ nav .auth-menu .sign-up {
     padding-bottom: 64px;
 }
 
-.achievement-container {
+.achievement-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 75px;
 }
 
-.achievement-container .text-content {
+.achievement-container  .text-content{
     width: 50%;
-    padding-right: 75px;
 }
 
-.achievement-container .counter-content {
+.achievement-container .counter-content{
     width: 50%;
 }
 
@@ -356,13 +356,17 @@ nav .auth-menu .sign-up {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
+    gap: 30px;
 }
 
-.achievement-container .counter-content .counter-row .counter-box {
+.achievement-container .counter-content .counter-row .counter-box{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
 }
+
 
 .achievement-container .text-content h2 {
     color: #4D4D4D;
@@ -379,6 +383,30 @@ nav .auth-menu .sign-up {
 
 .achievement-container .text-content p {
     color: #18191F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;}
+
+.counter-row .counter-box .counter-icon{
+    width: 48px;
+    height: 48px;
+}
+
+.counter-row .counter-box .counter-icon img{
+    width: 100%;
+}
+
+.counter-row .counter-box .counter-text h3{
+    color: #4D4D4D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.counter-row .counter-box .counter-text p{
+    color: #717171;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
