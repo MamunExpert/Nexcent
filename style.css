@@ -336,6 +336,7 @@ nav .auth-menu .sign-up {
     padding: 0px 120px;
     padding-top: 64px;
     padding-bottom: 64px;
+    margin-bottom: 48px;
 }
 
 .achievement-container{
@@ -360,13 +361,12 @@ nav .auth-menu .sign-up {
     gap: 30px;
 }
 
-.achievement-container .counter-content .counter-row .counter-box{
+.counter-content .counter-row .counter-box{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
 }
-
 
 .achievement-container .text-content h2 {
     color: #4D4D4D;
@@ -411,4 +411,84 @@ nav .auth-menu .sign-up {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+}
+
+
+
+
+/* calender section START */
+/* calender section START */
+/* calender section START */
+.calender-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 48px;
+}
+
+.calender-container .image-content {
+    width: 444px;
+}
+
+.calender-container .text-content {
+    width: 100%;
+}
+
+.calender-container .text-content h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+
+.calender-container .text-content p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+
+
+/* product trial section START */
+/* product trial section START */
+/* product trial section START */
+#product {
+    background: #F5F7FA;
+    margin: 0;
+    padding: 0px 120px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+}
+
+.trial-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.trial-container .trial-heading h2{
+    color: #263238;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px; 
+    text-align: center;
+}
+.trial-container .tial-btn{
+    position: relative;
+}
+
+.trial-container .tial-btn .btn{
+    padding-right:47px;
+}
+.trial-container .tial-btn img{
+    position: absolute;
+    top: 45%;
+    right: 18%;
 }
