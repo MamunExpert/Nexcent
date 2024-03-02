@@ -298,11 +298,15 @@ nav .auth-menu .sign-up {
     gap: 25px;
 }
 
-.service-container .image-content {
-    width: 444px;
+.service-container .text-content {
+    width: 50%;
 }
 
-.service-container .text-content {
+.service-container .image-content{
+    max-width: 450px;
+}
+
+.service-container .image-content img{
     width: 100%;
 }
 
@@ -427,11 +431,15 @@ nav .auth-menu .sign-up {
     margin-bottom: 48px;
 }
 
-.calender-container .image-content {
-    width: 444px;
+.calender-container .text-content {
+    width: 50%;
 }
 
-.calender-container .text-content {
+.calender-container .image-content {
+    max-width: 450px;
+}
+
+.calender-container .image-content img{
     width: 100%;
 }
 
