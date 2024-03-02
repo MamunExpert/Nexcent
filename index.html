@@ -1,385 +1,214 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mamunexpert, md al mamun, md. al mamun">
+    <meta name="auth" content="md al mamun">
+    <link rel="shortcut icon" href="./assets/fav.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 
-/* common section container */
-.container {
-    max-width: 1440px;
-    margin: 0px 120px;
-}
+                                <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-header {
-    background-color: #F5F7FA;
-    ;
-}
+    <title>Nexcent - Home</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assets/logo.png" alt="brand logo">
+                </div>
 
-.container nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#">Home </a></li>
+                        <li><a href="#service">Service </a></li>
+                        <li><a href="">Feature </a></li>
+                        <li><a href="">Product </a></li>
+                        <li><a href="">Testimonial </a></li>
+                        <li><a href="">FAQ </a></li>
+                    </ul>
+                </div>
 
-.navbar {
-    padding: 32px 0px;
-}
+                <div class="auth-menu">
+                    <a href="#" class="login">login</a>
+                    <a href="#" class="sign-up">sign up</a>
+                </div>
+            </nav>
 
-nav .logo {
-    max-width: 100px;
-}
+            <!-- hero section start -->
+            <div class="hero-container">
 
-nav .logo img {
-    width: 100%;
-    cursor: pointer;
-}
+                <div class="hero-content">
+                    <div class="text-content">
+                    <h2>Lessons and insights
+                        <span> from 8 years</span>
+                    </h2>
+                    <p>Where to grow your business as a photographer: site or social media?</p>
+                    <a href="#" class="btn">Register</a>
+                </div>
 
-nav .nav-menu ul {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+                <div class="image-content">
+                    <img src="./assets/frame (2).png" alt="hero">
+                </div>
+                </div>
 
-.nav-menu ul li {
-    list-style: none;
-}
+                <div class="move-btn">
+                    <img src="./assets/dot (1).png" alt="">
+                    <img src="./assets/dot (2).png" alt="">
+                    <img src="./assets/dot (3).png" alt="">
+                </div>
 
-.nav-menu ul li a {
-    text-decoration: none;
-    color: #18191F;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
+            </div>
+            <!-- hero section end -->
+        </div>
+    </header>
+                <!-- header section END -->
 
-nav .auth-menu {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    gap: 14px;
-}
-
-nav .auth-menu a {
-    text-decoration: none;
-    display: inline-block;
-    line-height: 20px;
-}
-
-nav .auth-menu .login {
-    color: #4CAF4F;
-    text-align: center;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-}
-
-nav .auth-menu .sign-up {
-    color: #fff;
-    background-color: #4CAF4F;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    padding: 10px 20px;
-    align-items: center;
-    border-radius: 6px;
-}
-
-
-/* hero section */
-/* hero section */
-.container .hero-container {
-    margin-top: 120px;
-}
-
-.hero-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 104px;
-}
-
-.hero-container .text-content h2 {
-    color: #4D4D4D;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 76px;
-}
-
-.hero-container .text-content h2 span {
-    color: #4CAF4F;
-}
-
-.hero-container .text-content p {
-    margin-top: 16px;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.btn {
-    text-decoration: none;
-    display: inline-block;
-    color: #FFF;
-    background-color: #4CAF4F;
-    padding: 14px 32px;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-}
-
-.hero-container .text-content .btn {
-    margin-top: 32px;
-}
-
-.hero-container .image-content {
-    max-width: 390px;
-}
-
-.hero-container .image-content img {
-    width: 100%;
-}
-
-.hero-container .move-btn {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 96px;
-    padding-bottom: 16px;
-}
-
-.hero-container .move-btn img {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-}
+    
+                <!-- client section start -->
+    <section class="container">
+        <div class="client-container">
+            <div class="title">
+                <h2>Our Clients</h2>
+            </div>
+            <div class="para">
+                <p>We have been working with some Fortune 500+ clients</p>
+            </div>
+            <div class="images">
+                <img src="./assets/clients (1).png" alt="">
+                <img src="./assets/clients (2).png" alt="">
+                <img src="./assets/clients (3).png" alt="">
+                <img src="./assets/clients (4).png" alt="">
+                <img src="./assets/clients (5).png" alt="">
+                <img src="./assets/clients (6).png" alt="">
+                <img src="./assets/clients (7).png" alt="">
+            </div>
+        </div>
+    </section>
+                <!-- client section end -->
 
 
+                <!-- community section START -->
+    <section class="container">
+        <div class="community-container">
+            <div class="heading-text">
+                <h2>Manage your entire community in a single system</h2>
+                <p>Who is Nextcent suitable for?
+                </p>
+            </div>
+            <div class="main-box">
+
+                <div class="text-box">
+                    <div class="image">
+                        <img src="./assets/icon (1).png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Membership Organisations</h3>
+                        <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    </div>
+                </div>
+
+                <div class="text-box">
+                    <div class="image">
+                        <img src="./assets/icon (2).png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>National Associations</h3>
+                        <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    </div>
+                </div>
+
+                <div class="text-box">
+                    <div class="image">
+                        <img src="./assets/icon (3).png" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Clubs And Groups</h3>
+                        <p>Our membership management software provides full automation of membership renewals and payments</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+                <!-- community section END -->
 
 
-/* client section START */
-/* client section START */
-.client-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0;
-}
+                <!-- service section START -->
+    <section class="container" id="service">
+        <div class="service-container">
+            <div class="image-content">
+                <img src="./assets/frame (1).png" alt="our serive">
+            </div>
+            <div class="text-content">
+                <h2>The unseen of spending three years at Pixelgrade</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+                <!-- service section END -->
 
-.client-container .title h2 {
-    margin-bottom: 8px;
-    color: #4D4D4D;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-}
+                
+                <!-- achievement section START -->
+    <section class="container" id="achievement">
+        <div class="achievement-container">
+            <div class="text-content">
+                <h2>Helping a local <span>business reinvent itself</span></h2>
+                <p>We reached here with our hard work and dedication</p>
+            </div>
+            <div class="counter-content">
+                <div class="counter-row">
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <img src="./assets/achievement (1).png" alt="achievement">
+                        </div>
+                        <div class="counter-text">
+                            <h3>2,245,341</h3>
+                            <p>Members</p>
+                        </div>
+                    </div>
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <img src="./assets/achievement (2).png" alt="achievement">
+                        </div>
+                        <div class="counter-text">
+                            <h3>2,245,341</h3>
+                            <p>Clubs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="counter-row">
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <img src="./assets/achievement (3).png" alt="achievement">
+                        </div>
+                        <div class="counter-text">
+                            <h3>828,867</h3>
+                            <p>Event Bookings</p>
+                        </div>
+                    </div>
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <img src="./assets/achievement (4).png" alt="achievement">
+                        </div>
+                        <div class="counter-text">
+                            <h3>1,926,436</h3>
+                            <p>Payments</p>
+                        </div>
+                    </div>
+                </div>
 
-.client-container .para p {
-    margin-bottom: 16px;
-    color: #4D4D4D;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
+                </div>
+            </div>
+        </div>
+    </section>
+                <!-- achievement section END -->
 
-.client-container .images {
-    display: flex;
-    height: 98px;
-    justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
-}
-
-
-
-
-/* community section START */
-/* community section START */
-/* community section START */
-.community-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.community-container .heading-text h3 {
-    color: #4D4D4D;
-    text-align: center;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-}
-
-.community-container .heading-text p {
-    color: #717171;
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    margin-top: 8px;
-    margin-bottom: 16px;
-}
-
-.community-container .main-box {
-    display: flex;
-    justify-content: space-between;
-    gap: 58px;
-    align-items: center;
-}
-
-.community-container .main-box .text-box {
-    width: 300px;
-    text-align: center;
-    padding: 24px 32px;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
-}
-
-.community-container .main-box .text-box .image {
-    display: inline-block;
-    width: 48px;
-    height: 48px;
-    border-radius: 18px 5px 10px 5px;
-    position: relative;
-    background: #E8F5E9;
-    margin-bottom: 16px;
-}
-
-.community-container .main-box .text-box .image img {
-    width: 100%;
-    position: absolute;
-    right: 30%;
-    top: -15%;
-}
-
-.community-container .main-box .text-box .text h3 {
-    width: 80%;
-    margin: 0 auto;
-    color: #4D4D4D;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 36px;
-}
-
-.community-container .main-box .text-box .text p {
-    text-align: center;
-    color: #717171;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-}
-
-
-
-/* service section START */
-/* service section START */
-/* service section START */
-.service-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 25px;
-}
-
-.service-container .image-content {
-    width: 444px;
-}
-
-.service-container .text-content {
-    width: 100%;
-}
-
-.service-container .text-content h2 {
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    margin-bottom: 16px;
-}
-
-.service-container .text-content p {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px;
-    margin-bottom: 32px;
-}
-
-
-
-
-/* achievement section START */
-/* achievement section START */
-/* achievement section START */
-#achievement {
-    background: #F5F7FA;
-    margin: 0;
-    padding: 0px 120px;
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-.achievement-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 75px;
-}
-
-.achievement-container .text-content {
-    width: 50%;
-    padding-right: 75px;
-}
-
-.achievement-container .counter-content {
-    width: 50%;
-}
-
-.achievement-container .counter-content .counter-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.achievement-container .counter-content .counter-row .counter-box {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.achievement-container .text-content h2 {
-    color: #4D4D4D;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 44px;
-    margin-bottom: 8px;
-}
-
-.achievement-container .text-content span {
-    color: #4CAF4F;
-}
-
-.achievement-container .text-content p {
-    color: #18191F;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
+</body>
+</html>
