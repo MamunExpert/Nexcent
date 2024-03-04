@@ -460,6 +460,7 @@ nav .auth-menu .sign-up {
 }
 
 
+
 /* community card section START */
 /* community card section START */
 /* community card section START */
@@ -556,6 +557,7 @@ nav .auth-menu .sign-up {
 
 
 
+
 /* product trial section START */
 /* product trial section START */
 /* product trial section START */
@@ -565,7 +567,6 @@ nav .auth-menu .sign-up {
     padding: 0px 120px;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-bottom: 48px;
 }
 
 .trial-container{
@@ -595,6 +596,8 @@ nav .auth-menu .sign-up {
     top: 45%;
     right: 18%;
 }
+
+
 
 /* footer section START */
 /* footer section START */
