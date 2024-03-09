@@ -91,14 +91,22 @@ nav .auth-menu .sign-up {
 /* hero section */
 /* hero section */
 .container .hero-container {
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .hero-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 104px;
+    gap: 80px;
+}
+
+.hero-container .text-content {
+    width: 65%;
+}
+
+.hero-container .image-content {
+    width: 35%;
 }
 
 .hero-container .text-content h2 {
@@ -139,10 +147,6 @@ nav .auth-menu .sign-up {
     margin-top: 32px;
 }
 
-.hero-container .image-content {
-    max-width: 390px;
-}
-
 .hero-container .image-content img {
     width: 100%;
 }
@@ -151,8 +155,7 @@ nav .auth-menu .sign-up {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 72px;
-    padding-bottom: 16px;
+    margin-top: 45px;
 }
 
 .hero-container .move-btn img {
@@ -361,7 +364,6 @@ nav .auth-menu .sign-up {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
     gap: 30px;
 }
 
@@ -458,6 +460,109 @@ nav .auth-menu .sign-up {
     line-height: 20px;
     margin-bottom: 32px;
 }
+
+
+
+/* customer section START */
+/* customer section START */
+/* achiecustomervement section START */
+
+#customer {
+    background: #F5F7FA;
+    margin: 0;
+    padding: 0px 120px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 48px;
+}
+
+.customer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 78px;
+}
+
+.customer-container .image-box{
+    width: 33%;
+}
+
+.customer-container .image-box img{
+    max-width: 326px;
+    height: 326px;
+}
+
+.customer-container .content-box{
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.customer-container .content-box .text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.content-box .text-box .deatils{
+    color: #717171;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.text-box .info h2{
+    color: #4CAF4F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.text-box .info h3{
+    color: #89939E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.customer-container .content-box .customers-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.customer-container .content-box .customers-logo img{
+    height: 20px;
+}
+
+.meet-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.meet-btn a{
+    text-decoration: none;
+    color: #4CAF4F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.meet-btn img{
+    max-width: 24px;
+    height: 24px;
+}
+
+
 
 
 
