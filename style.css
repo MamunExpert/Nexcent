@@ -53,6 +53,12 @@ nav .nav-menu ul {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    transition: all .3s ease-in-out;
+}
+
+.nav-menu ul li:hover a{
+    color: #4CAF4F;
+    transition: .3s;
 }
 
 nav .auth-menu {
@@ -85,6 +91,12 @@ nav .auth-menu .sign-up {
     padding: 10px 20px;
     align-items: center;
     border-radius: 6px;
+    transition: all .3s ease-in-out;
+}
+
+nav .auth-menu .sign-up:hover{
+    background-color: #399d3c;
+    transition: .3s;
 }
 
 
@@ -141,6 +153,12 @@ nav .auth-menu .sign-up {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #399d3c;
+    transition: .3s;
 }
 
 .hero-container .text-content .btn {
@@ -652,6 +670,12 @@ nav .auth-menu .sign-up {
     line-height: 28px;
     color: #4CAF4F;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.single-box .content .read-more p:hover{
+    color: #399d3c;
+    transition: .3s;
 }
 
 .single-box .content .read-more img{
@@ -843,7 +867,7 @@ nav .auth-menu .sign-up {
 
   .right-col .footer-col 
   .input-box input:focus
-  { outline: none; }
+  { outline: none; color: #4CAF4F;}
   
   .right-col .footer-col 
   .input-box i {
@@ -857,4 +881,11 @@ nav .auth-menu .sign-up {
     color: #fff;
     text-align:center;
     cursor:pointer;
+    transition: all .3s ease-in-out;
+  }
+
+  .right-col .footer-col 
+  .input-box i:hover{
+    color: #399d3c;
+    transition: .3s;
   }
