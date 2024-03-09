@@ -78,6 +78,7 @@ nav .auth-menu .login {
     color: #4CAF4F;
     text-align: center;
     font-size: 14px;
+    text-transform: capitalize;
     font-style: normal;
     font-weight: 500;
 }
@@ -87,6 +88,7 @@ nav .auth-menu .sign-up {
     background-color: #4CAF4F;
     font-size: 14px;
     font-style: normal;
+    text-transform: capitalize;
     font-weight: 500;
     padding: 10px 20px;
     align-items: center;
@@ -98,6 +100,62 @@ nav .auth-menu .sign-up:hover{
     background-color: #399d3c;
     transition: .3s;
 }
+
+
+
+ /* break point for mobile */
+ /* break point for mobile */
+
+ @media screen and (max-width: 480px){
+    .container {
+        max-width: 1440px;
+        min-height: 100vh;
+        margin: 0px 30px;
+    }
+
+    .container nav {
+        height: 18vh;
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    .navbar {
+        padding: 0;
+        padding-top: 2vh;
+    }
+
+    nav .logo {
+        max-width: 200px;
+        align-self: flex-start;
+    }
+
+    nav .nav-menu ul {
+        flex-wrap: wrap;
+        gap: 1vh;
+    }
+
+    nav .nav-menu ul a{
+        margin: 0 12px;
+    }
+
+    nav .nav-menu ul a:hover{
+        text-decoration: underline;
+        transition: .3s;
+    }
+
+    nav .auth-menu {
+        position: absolute;
+        right: 30px;
+    }
+
+    nav .auth-menu .sign-up {
+        font-size: 12px;
+        padding: 4px 18px;
+        border-radius: 4px;
+    }
+ }
+ 
+
 
 
 /* hero section */
@@ -119,6 +177,7 @@ nav .auth-menu .sign-up:hover{
 
 .hero-container .image-content {
     width: 35%;
+    margin-top: 2vh;
 }
 
 .hero-container .text-content h2 {
@@ -182,6 +241,60 @@ nav .auth-menu .sign-up:hover{
     height: 10px;
 }
 
+
+ /* break point for mobile */
+ /* break point for mobile */
+
+ @media screen and (max-width: 480px){
+    .container .hero-container {
+        margin-top: 2vh;
+        height: calc(100% - 20vh);
+    }
+
+    .hero-content {
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    .hero-container .text-content {
+        width: 100%;
+        height: 50%;
+        order: 2;
+    }
+
+    .hero-container .image-content {
+        width: 50%;
+        order: 1;
+        text-align: center;
+    }
+
+    .hero-container .text-content h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .hero-container .text-content p {
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .btn {
+        padding: 9px 24px;
+        border-radius: 4px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .hero-container .text-content .btn {
+        margin-top: 2vh;
+    }
+
+    .hero-container .move-btn {
+        gap: 1vw;
+        margin-top:6vh;
+    }
+ }
 
 
 
@@ -889,3 +1002,16 @@ nav .auth-menu .sign-up:hover{
     color: #399d3c;
     transition: .3s;
   }
+
+
+
+
+
+
+
+ /* break point for moile */
+ /* break point for moile */
+
+@media screen and (max-width: 480px){
+    
+}
