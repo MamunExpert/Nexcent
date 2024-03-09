@@ -121,7 +121,7 @@ nav .auth-menu .sign-up:hover{
 
     .navbar {
         padding: 0;
-        padding-top: 2vh;
+        padding-top: 3vh;
     }
 
     nav .logo {
@@ -1002,16 +1002,3 @@ nav .auth-menu .sign-up:hover{
     color: #399d3c;
     transition: .3s;
   }
-
-
-
-
-
-
-
- /* break point for moile */
- /* break point for moile */
-
-@media screen and (max-width: 480px){
-    
-}
